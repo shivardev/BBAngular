@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Satisfy&display=swap');
+
+
+#textbox {
+    margin: auto;
+    width: 100vw;
+    position: relative;
+    font-weight: bolder;
+    color: rgb(26, 26, 26);
+    filter: url(#threshold)
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    /* font-family: 'Bangers', system-ui; */
+    font-family: 'Satisfy', cursive;
+    /* font-family: "Raleway", sans-serif; */
+    /* font-size: 5vw; */
+    text-align: center;
+    user-select: none;
+}
+#dot{
+    margin:0px;
+    animation: fadeAni 1.3s infinite;
+}
+@keyframes fadeAni {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

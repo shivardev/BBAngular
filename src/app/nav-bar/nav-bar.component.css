@@ -1,0 +1,15 @@
+#navi {
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    height: 70px;
+    border-bottom: 1px solid;
+}
+.hero-section__description {
+    padding-top: 10px;
+}
